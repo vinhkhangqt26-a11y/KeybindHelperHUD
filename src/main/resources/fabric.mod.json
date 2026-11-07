@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "keybindhelper",
+  "version": "${version}",
+  "name": "Keybind Helper HUD",
+  "description": "HUD hiển thị phím tắt hỗ trợ người chơi (chỉ phía Client).",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.keybindhelper.KeybindHelperClient",
+      "com.keybindhelper.panel.PanelClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
