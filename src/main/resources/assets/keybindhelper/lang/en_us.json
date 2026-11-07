@@ -1,0 +1,7 @@
+{
+  "key.category.keybindhelper.main": "Keybind Helper HUD",
+  "key.keybindhelper.toggle": "Toggle HUD (H)",
+  "key.keybindhelper.toggle_alt": "Toggle HUD (Numpad 0)",
+  "key.category.keybindhelper.panel": "Keybind Helper Panel",
+  "key.keybindhelper.open_panel": "Open function panel (K)"
+}
